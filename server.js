@@ -43,6 +43,15 @@ app.post('/api/notes',(req, res)=> {
 
 
 // Delete a note
+app.delete('/api/notes',(req, res)=> {
+    let allNotes = JSON.parse(fs.readFileSync('./db/db.json', 'utf-8'));
+    
+
+    fs.writeFileSync('./db/db.json', JSON.stringify(allNotes));
+    res.json(allNotes);
+
+})
+
 
 
 
