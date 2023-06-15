@@ -43,9 +43,15 @@ app.post('/api/notes',(req, res)=> {
 
 
 // Delete a note
-app.delete('/api/notes',(req, res)=> {
+app.delete('/api/notes/:id',(req, res)=> {
+    const noteId = req.params.id
     let allNotes = JSON.parse(fs.readFileSync('./db/db.json', 'utf-8'));
-    
+    const objWithIdIndex = allNotes.findIndex((obj) => obj.id === noteId);
+   console.log(objWithIdIndex)
+  if (objWithIdIndex > -1) {
+    allNotes.splice(objWithIdIndex, 1);
+  }
+
 
     fs.writeFileSync('./db/db.json', JSON.stringify(allNotes));
     res.json(allNotes);

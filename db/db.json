@@ -1,12 +1,1 @@
-[
-    {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": 1
-    },
-    {
-        "title": "Test",
-        "text": "test",
-        "id": "adfc16db-d91c-4c67-b060-a26f9dd13e31"
-    }
-]
+[{"title":"Test Title","text":"Test text","id":1},{"title":"Test","text":"test","id":"adfc16db-d91c-4c67-b060-a26f9dd13e31"},{"title":"Coffee training","text":"Jun 14th 2:30pm\n","id":"fbcdd6a9-0c05-4b67-8bf6-7d335e8cd905"},{"title":"Moving","text":"July 1st","id":"f50085b4-7195-4d92-a197-7bd84d6adcf9"}]
