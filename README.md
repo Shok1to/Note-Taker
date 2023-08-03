@@ -43,7 +43,7 @@ Starter code: Xandromus, Georgeyoo
 
 ## Link
 [Github repository](https://github.com/Shok1to/Note-Taker)
-[Note Taker URL](hhttps://powerful-crag-07881-ccf657f26c19.herokuapp.com/)
+[Note Taker URL](https://powerful-crag-07881-ccf657f26c19.herokuapp.com/)
 
 ## License
 ![MIT](https://img.shields.io/badge/license-MIT-lightgrey.png)
